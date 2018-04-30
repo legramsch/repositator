@@ -43,5 +43,8 @@ def handlegithub():
 
     return 'Nice'
 
+@mainapp.route('/apunteswaw',methods=['GET'])
+def apunteswaw():
+    return 'Done'
 
 mainapp.run(port=8080)
